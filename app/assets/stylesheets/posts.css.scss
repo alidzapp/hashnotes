@@ -1,0 +1,20 @@
+.posts {
+}
+
+.post-item {
+  padding: 20px 0px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin: 20px 0;
+  p{
+    margin: 0px;
+    word-wrap: break-word;
+  }
+}
+
+.multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

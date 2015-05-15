@@ -1,0 +1,43 @@
+$cyan: #00b09c;
+
+.post-form{
+}
+
+.new_post {
+  margin-top: 15px;
+  .textarea {
+    min-height: 220px;
+    resize: none;
+  }
+}
+
+
+.form-control {
+  box-shadow: none;
+  border-color: #eee;
+  height: 49px;
+  &:focus {
+    box-shadow: none;
+    border-color: $cyan;
+  }
+}
+
+.main-btn {
+  background: $cyan;
+  border-color: $cyan;
+  color: #fff;
+  &:hover {
+    background: $cyan;
+    color: #fff;
+  }
+}
+
+.main-btn:hover {
+  background: $cyan;
+  color: #fff;
+}
+
+.form-control-feedback {
+  line-height: 50px;
+  top: 0px;
+}
