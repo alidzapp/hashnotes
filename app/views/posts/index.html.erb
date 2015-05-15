@@ -2,9 +2,24 @@
 
 <div class="jumbotron">
 
+  <div class="row search-form">
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="#hashtag">
+          </div>
+        </div>
+          <div class="col-md-1" style="padding: 12px 0px;">
+            <input type="submit" value="Search!" class="btn main-btn pull-right"/>
+          </div>
+        </div>
+    </form>
+  </div>
+
   <div class="row post-form">
     <%= form_for(@post) do |f| %>
-        <div class="row">
+        <!--<div class="row">
           <div class="col-md-6">
             <div class="form-group">
               <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="#hashtag">
@@ -15,7 +30,7 @@
               <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="e-mail">
             </div>
           </div>
-        </div>
+        </div>-->
         <div class="row">
           <div class="col-md-12">
             <div class="form-group">
