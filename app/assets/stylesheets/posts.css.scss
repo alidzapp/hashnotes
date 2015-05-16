@@ -2,13 +2,25 @@
 }
 
 .post-item {
-  padding: 20px 0px;
+  padding: 10px 10px;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
   margin: 20px 0;
-  p{
+  .post-author p {
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 4px;
+  }
+  .post-text p{
     margin: 0px;
     word-wrap: break-word;
+  }
+
+  .post-date p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 14px;
+    margin-bottom: 0px;
   }
 }
 

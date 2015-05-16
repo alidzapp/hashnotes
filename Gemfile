@@ -4,6 +4,7 @@ ruby '2.2.1'
 
 gem 'rails',                   '4.2.1'
 gem 'bcrypt',                  '3.1.7'
+gem 'devise',                  '~> 3.4.1'
 gem 'faker',                   '1.4.2'
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
